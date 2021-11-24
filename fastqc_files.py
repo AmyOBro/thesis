@@ -1,3 +1,5 @@
+##Runs fastqc on an input folder and will creates a directory called fastqc_out
+# that will contain the output
 import os # set up directory variables
 seq_dir ='test_dataset'
 fastqc_dir ='fastqc_out'# create output directory
